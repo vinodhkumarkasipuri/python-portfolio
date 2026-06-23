@@ -1,32 +1,41 @@
-# 💻 Installing Python
+# 🐍 02 - Install Python
 
 ## 📖 Overview
 
-Installing Python is the first step toward becoming a Python developer.
+Before writing Python programs, we need to install Python and verify that it is correctly configured on our system.
 
-Python can be installed on Windows, macOS, and Linux from the official Python website.
-
----
-
-## 🌐 Download Python
-
-Official Website
-
-https://www.python.org/downloads/
+A proper installation ensures that we can write, run, debug, and develop Python applications efficiently.
 
 ---
 
-## 🛠 Installation Steps
+# 🎯 Learning Objectives
 
-1. Download Python.
+After completing this topic, you will be able to:
+
+- Install Python
+- Verify Python installation
+- Understand the Python Interpreter
+- Use the Command Prompt or Terminal
+- Run your first Python command
+- Understand the difference between Python and the Python Interpreter
+
+---
+
+# 🛠 Installation Steps
+
+## Windows
+
+1. Download Python from the official website.
 2. Run the installer.
 3. Check **Add Python to PATH**.
-4. Click Install.
-5. Verify the installation.
+4. Click **Install Now**.
+5. Wait for installation to complete.
 
 ---
 
-## ✅ Verify Installation
+# ✅ Verify Installation
+
+Open Command Prompt and run:
 
 ```bash
 python --version
@@ -35,10 +44,10 @@ python --version
 or
 
 ```bash
-python3 --version
+python -V
 ```
 
-Example Output
+Example:
 
 ```
 Python 3.13.x
@@ -46,25 +55,111 @@ Python 3.13.x
 
 ---
 
-## 💻 Install VS Code
+# Verify pip
 
-Download
+```bash
+pip --version
+```
 
-https://code.visualstudio.com/
+Example:
 
-Install the Python Extension from Microsoft.
-
----
-
-## 🎯 Key Points
-
-- Install Python from the official website.
-- Always enable "Add Python to PATH".
-- Install Visual Studio Code.
-- Verify installation using the terminal.
+```
+pip 25.x.x
+```
 
 ---
 
-## ✅ Status
+# Run Python
 
-Completed
+```bash
+python
+```
+
+You should see:
+
+```
+>>>
+```
+
+This is called the **Python Interpreter**.
+
+---
+
+# Exit Python
+
+```python
+exit()
+```
+
+or
+
+```
+Ctrl + Z
+Enter
+```
+
+---
+
+# Why Add Python to PATH?
+
+Adding Python to PATH allows you to run Python from any folder using:
+
+```bash
+python
+```
+
+Without PATH, Windows cannot locate the Python executable.
+
+---
+
+# Real-World Use Cases
+
+Installing Python enables you to build:
+
+- Automation scripts
+- Data pipelines
+- ETL jobs
+- APIs
+- Machine Learning applications
+- Azure Functions
+- Data Engineering solutions
+
+---
+
+# Best Practices
+
+- Always install the latest stable version.
+- Enable "Add Python to PATH".
+- Keep Python updated.
+- Use virtual environments for projects.
+- Verify installation before coding.
+
+---
+
+# Interview Questions
+
+### 1. What is PATH?
+
+### 2. Why do we add Python to PATH?
+
+### 3. How do you verify Python installation?
+
+### 4. What is pip?
+
+### 5. What is the Python Interpreter?
+
+---
+
+# Exercises
+
+- Install Python.
+- Verify the installation.
+- Verify pip.
+- Open the Python Interpreter.
+- Exit the Interpreter.
+
+---
+
+# Next Topic
+
+➡️ 03 - Hello World
