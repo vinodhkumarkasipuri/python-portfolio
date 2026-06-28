@@ -1,175 +1,93 @@
+# 📝 Python Comments
 
-# 💬 Comments in Python
+## 📖 What are Comments?
 
-## 📖 Overview
+Comments are notes written inside Python code.
 
-Comments are lines of text that Python ignores during program execution.
+Python ignores comments when running the program.
 
-They are written to help developers understand, explain, and maintain code. Comments improve readability and make projects easier to work on, especially in team environments.
-
----
-
-# 🎯 Learning Objectives
-
-After completing this topic, you will be able to:
-
-- Write single-line comments
-- Write multi-line comments
-- Understand inline comments
-- Know when to use comments
-- Follow Python commenting best practices
+They help explain the code, making it easier to understand and maintain.
 
 ---
 
-# What is a Comment?
+## Why do we use comments?
 
-A comment is text that is ignored by the Python interpreter.
+- Explain what the code does.
+- Make code easier to read.
+- Help other developers understand your program.
+- Temporarily disable code during testing.
 
-It is written for humans—not for the computer.
+---
+
+## Single-Line Comment
+
+A single-line comment starts with the `#` symbol.
 
 Example:
 
 ```python
 # This is a comment
-
-print("Hello Python")
+print("Hello, World!")
 ```
 
 Output:
 
 ```
-Hello Python
+Hello, World!
 ```
 
 ---
 
-# Types of Comments
+## Multi-Line Comment
 
-## 1️⃣ Single-Line Comment
+Python doesn't have a special multi-line comment syntax.
+
+We usually use multiple `#` symbols.
+
+Example:
 
 ```python
-# This is a single-line comment
-
-print("Python")
+# This is line 1
+# This is line 2
+# This is line 3
 ```
 
----
-
-## 2️⃣ Multiple Comments
+You can also use triple quotes for documentation.
 
 ```python
-# Step 1
-# Step 2
-# Step 3
-
-print("Learning Python")
+"""
+This is a multi-line string
+often used as documentation.
+"""
 ```
 
 ---
 
-## 3️⃣ Inline Comment
+## Best Practices
+
+- Write meaningful comments.
+- Keep comments short and clear.
+- Update comments when the code changes.
+- Don't comment obvious code.
+
+❌ Bad
 
 ```python
-score = 95   # Student exam score
+x = 10  # Assign 10 to x
 ```
 
----
-
-# Why Do We Use Comments?
-
-Comments help developers:
-
-- Explain complex logic
-- Improve readability
-- Make maintenance easier
-- Help teammates understand code
-- Document important business rules
-
----
-
-# Best Practices
-
-✅ Write meaningful comments
-
-✅ Explain **why**, not obvious code
-
-✅ Keep comments short
-
-✅ Update comments when code changes
-
----
-
-# Avoid
-
-❌ Writing comments for obvious code
+✅ Good
 
 ```python
-x = 10   # Assign 10 to x
-```
-
-Instead:
-
-```python
-# Store the passing score
-
-passing_score = 35
+# Store the user's age
+age = 25
 ```
 
 ---
 
-# Real-World Example
+## Key Takeaways
 
-```python
-# Load employee data
-
-# Remove inactive employees
-
-# Generate monthly report
-
-print("Report Generated Successfully")
-```
-
----
-
-# Azure Data Engineering Connection
-
-In Data Engineering projects, comments help explain:
-
-- ETL pipelines
-- Data transformations
-- SQL logic
-- Azure Data Factory workflows
-- Business rules
-
-Good comments make enterprise projects easier to maintain.
-
----
-
-# Interview Questions
-
-1. What are comments in Python?
-
-2. Does Python execute comments?
-
-3. Why are comments important?
-
-4. What is an inline comment?
-
-5. What are Python commenting best practices?
-
----
-
-# Exercises
-
-- Create three single-line comments.
-- Create one inline comment.
-- Write comments for a simple Python program.
-- Explain a business rule using comments.
-
----
-
-# Summary
-
-Comments do not affect program execution.
-
-They help developers write clean, readable, and maintainable code.
+- Comments are ignored by Python.
+- Single-line comments use `#`.
+- Triple quotes are mainly used for documentation.
+- Good comments improve code readability.
