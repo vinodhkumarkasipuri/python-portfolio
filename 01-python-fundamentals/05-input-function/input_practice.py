@@ -8,6 +8,8 @@
 # Question: 1 Ask the user to enter their name.
 # ==========================================================
 
+# Solution :
+
 name = input("Enter Your Name")
 
 print("Hello", name)
